@@ -114,7 +114,7 @@ window.onload = function () {
 			}
 
 			//現在のテキスト表示
-			scoreText.text = "倒した市野さんの数：" + point; 				//point変数が変化するので、毎フレームごとにpointの値を読み込んだ文章を表示する
+			scoreText.text =　point + "COMBO"; 				//point変数が変化するので、毎フレームごとにpointの値を読み込んだ文章を表示する
 
 			//ゲームオーバー判定
 			if (zoyamaImg.x >= 400) {						//画面端にぞう山画像が行ってしまったら
@@ -122,7 +122,7 @@ window.onload = function () {
 				game.pushScene(endScene);				//endSceneシーンを読み込ませる
 
 				//ゲームオーバー後のテキスト表示
-				gameOverText.text = "point " + "ＣＯＭＢＯ";				//テキストに文字表示 
+				gameOverText.text = "あなたが倒した市野さんは：" + point + "人❤　　　～ノーマルモード～";				//テキストに文字表示 
 				
 			}
 
