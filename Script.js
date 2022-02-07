@@ -122,7 +122,7 @@ window.onload = function () {
 				game.pushScene(endScene);				//endSceneシーンを読み込ませる
 
 				//ゲームオーバー後のテキスト表示
-				gameOverText.text = "あなたが倒した市野さんは：" + point + "人❤　　　～ノーマルモード～";				//テキストに文字表示 
+				gameOverText.text = "point " + "ＣＯＭＢＯ";				//テキストに文字表示 
 				
 			}
 
